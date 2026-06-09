@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #0a0e1a;
+    color: #ccd6e0;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px 60px;
+}
+
+/* NAV */
+nav {
+    padding: 20px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #2a3a50;
+}
+
+nav a {
+    margin-right: 24px;
+    text-decoration: none;
+    color: #7ec8f7;
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* HEADINGS */
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    color: #7ec8f7;
+    margin: 40px 0 12px;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    color: #a8c8e0;
+    margin: 28px 0 8px;
+}
+
+/* TEXT */
+p {
+    line-height: 1.8;
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #2a3a50;
+    margin: 40px 0;
+}
+
+strong {
+    color: #7ec8f7;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 16px 0;
+    border: 1px solid #2a3a50;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 60px;
+    border-top: 1px solid #2a3a50;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #445566;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+}
